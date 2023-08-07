@@ -1,0 +1,71 @@
+:root {
+  --primary-bg: #fff;
+  --text-color: #c9c3c3;
+  --second-bg: #26a8ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--primary-bg);
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+li::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background: var(--second-bg);
+  right: 0;
+  color: var(--second-bg);
+}
+
+.icon {
+  cursor: pointer;
+}
+
+/* Navbar */
+.navbar a {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Search */
+.seacrhdiv {
+  background: var(--second-bg);
+}
+form input {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+/* Job */
+.jobContainer {
+  background-color: var(--second-bg);
+}
+
+.singleJob {
+  width: 250px;
+  border: 1px solid var(--second-bg);
+}
+
+.singleJob:hover {
+  background: var(--second-bg);
+  cursor: pointer;
+}
+
+.jobContainer h1 span {
+  color: white;
+}
