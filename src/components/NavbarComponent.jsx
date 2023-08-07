@@ -24,11 +24,11 @@ const NavbarComponent = () => {
             </Nav>
             <Link
               to="/signup"
-              className="btn btn-light btn-outline-primary ms-3"
+              className="btn btn-light btn-outline-warning ms-3"
             >
               Masuk
             </Link>
-            <Button className="btn btn-primary ms-3">Untuk perusahaan</Button>
+            <Button className="btn btn-warning ms-3">Untuk perusahaan</Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>

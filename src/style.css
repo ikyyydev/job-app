@@ -65,7 +65,3 @@ form input {
   background: var(--second-bg);
   cursor: pointer;
 }
-
-.jobContainer h1 span {
-  color: white;
-}

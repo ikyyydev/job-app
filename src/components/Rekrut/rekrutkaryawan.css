@@ -1,0 +1,27 @@
+.rekrut {
+  min-height: 80vh;
+  background: #26a8ff;
+  display: flex;
+  align-items: center;
+  padding: 100px 10px 50px;
+}
+
+.rekrut h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.rekrut ul li {
+  color: #fff;
+  font-size: 1.2rem;
+  list-style-type: disc;
+}
+
+.rekrut img {
+  width: 80%;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+}

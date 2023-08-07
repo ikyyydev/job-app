@@ -35,7 +35,7 @@ const Search = () => {
               />
               <i class="fa-solid fa-xmark"></i>
             </div>
-            <button className="btn btn-primary rounded-1">Cari</button>
+            <button className="btn btn-warning rounded-1">Cari</button>
           </div>
         </form>
 

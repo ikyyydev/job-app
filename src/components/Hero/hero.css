@@ -1,0 +1,36 @@
+.hero {
+  min-height: 80vh;
+  background: #26a8ff;
+  display: flex;
+  align-items: center;
+  padding: 100px 10px 50px;
+}
+
+.hero .content {
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+.hero img {
+  width: 80%;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+}
