@@ -52,6 +52,11 @@ li {
   font-weight: bold;
 }
 
+.navbar .nav-link {
+  color: #000;
+  font-weight: 600;
+}
+
 /* Search */
 .seacrhdiv {
   background: var(--second-bg);
@@ -78,5 +83,9 @@ form input {
 }
 
 /* Responsive tablet */
-
+/* @media screen and (max-width: 768px) {
+  .footer .container .row .col {
+    margin-bottom: 50px;
+  }
+} */
 /* Responsive handphone */

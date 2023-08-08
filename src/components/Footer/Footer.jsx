@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer" id="footer">
         <div className="container">
           <div className="row link">
-            <div className="col-md-3">
+            <div className="col-md-3 pb-3">
               <p>JOB</p>
               <li>
                 <a href="">Beranda</a>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <a href="">Tips Karir</a>
               </li>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 pb-3">
               <p>Info Lowongan</p>
               <li>
                 <a href="">Jakarta</a>
@@ -49,7 +49,7 @@ const Footer = () => {
                 <a href="">Karawang</a>
               </li>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 pb-3">
               <p>Hubungi Kami</p>
               <li>
                 <a href="">Whatsapp</a>
