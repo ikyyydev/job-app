@@ -1,0 +1,56 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 50px 10px 5px;
+}
+
+.footer .link {
+  padding: 50px 0;
+}
+
+.footer .link p {
+  font-size: 1.1rem;
+  color: grey;
+}
+
+footer li a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+footer li {
+  line-height: 2.6rem;
+}
+
+footer li a:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+footer h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #000;
+}
+
+footer span {
+  color: #ffc107;
+}
+
+footer .hakcipta {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid grey;
+  padding-top: 5px;
+}
+
+footer .hakcipta a {
+  text-decoration: none;
+  color: rgb(33, 33, 163);
+}
+footer .hakcipta a:hover {
+  text-decoration: underline;
+}

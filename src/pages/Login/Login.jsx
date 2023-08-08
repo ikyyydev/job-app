@@ -24,7 +24,9 @@ const Login = () => {
       </form>
       <div>
         <div className="text-light">Belum punya akun? </div>
-        <a href="/register">Register</a>
+        <a href="/register" className="text-dark">
+          Register
+        </a>
       </div>
     </div>
   );

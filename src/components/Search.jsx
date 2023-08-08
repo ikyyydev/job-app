@@ -6,7 +6,7 @@ const Search = () => {
       <div className="seacrhdiv col-md-10 rounded shadow p-5 mx-auto mb-1">
         <form action="">
           <div className="first d-flex justify-content-between align-items-center rounded gap-2 bg-light p-3 shadow-sm flex-wrap ">
-            <div className="d-flex gap-2 align-items-center">
+            <div className="col d-flex gap-2 align-items-center">
               <i class="fa-solid fa-magnifying-glass"></i>
               <input
                 type="text"
@@ -15,27 +15,7 @@ const Search = () => {
               />
               <i class="fa-solid fa-xmark"></i>
             </div>
-
-            <div className="d-flex gap-2 align-items-center">
-              <i class="fa-solid fa-house"></i>
-              <input
-                type="text"
-                className=" text-dark fw-bold w-100 outline-none  "
-                placeholder="Cari Perusahaan ..."
-              />
-              <i class="fa-solid fa-xmark"></i>
-            </div>
-
-            <div className="d-flex gap-2 align-items-center">
-              <i class="fa-solid fa-location-dot"></i>
-              <input
-                type="text"
-                className=" text-dark fw-bold w-100  "
-                placeholder="Cari Lokasi ..."
-              />
-              <i class="fa-solid fa-xmark"></i>
-            </div>
-            <button className="btn btn-warning rounded-1">Cari</button>
+            <button className="col-md-2 btn btn-warning rounded-1">Cari</button>
           </div>
         </form>
 

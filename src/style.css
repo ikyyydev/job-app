@@ -21,21 +21,32 @@ li {
   position: relative;
 }
 
-li::before {
-  position: absolute;
-  content: "";
-  height: 4px;
-  width: 100%;
-  background: var(--second-bg);
-  right: 0;
-  color: var(--second-bg);
-}
-
 .icon {
   cursor: pointer;
 }
 
 /* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 7px 0;
+  transition: all 0.2s ease;
+  z-index: 99;
+}
+
+.navbar .nav-link:hover {
+  background: #ffc107;
+}
+
+.navbar span {
+  color: #ffc107;
+}
+
+.navbar.color-active {
+  background-color: #fff;
+  padding: 10px 0;
+}
+
 .navbar a {
   font-size: 1.1rem;
   font-weight: bold;
@@ -65,3 +76,7 @@ form input {
   background: var(--second-bg);
   cursor: pointer;
 }
+
+/* Responsive tablet */
+
+/* Responsive handphone */

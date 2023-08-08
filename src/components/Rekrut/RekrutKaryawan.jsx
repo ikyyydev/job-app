@@ -7,7 +7,7 @@ export const RekrutKaryawan = () => {
       <section className="rekrut" id="rekrut">
         <div className="container">
           <div className="row">
-            <div className="col-md">
+            <div className="col-md pt-md-5">
               <h1>Rekrut karyawan dalam 24 jam</h1>
               <ul>
                 <li>Kandidat yang terbaik mengubungi anda lewat wa</li>
@@ -19,7 +19,7 @@ export const RekrutKaryawan = () => {
               </a>
             </div>
             <div className="col-md">
-              <img src="hero.png" alt="" />
+              <img src="laptop.png" alt="" />
             </div>
           </div>
         </div>

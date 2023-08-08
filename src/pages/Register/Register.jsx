@@ -32,7 +32,9 @@ const Register = () => {
       </form>
       <div>
         <div className="text-light">Sudah punya akun? </div>
-        <a href="/signup">Login</a>
+        <a href="/signup" className="text-dark">
+          Login
+        </a>
       </div>
     </div>
   );

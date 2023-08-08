@@ -13,8 +13,12 @@
 .hero h1 {
   font-size: 2.5rem;
   font-weight: 800;
-  color: #fff;
+  color: #000000;
   margin-bottom: 20px;
+}
+
+.hero span {
+  color: #ffc107;
 }
 
 .hero h2 {

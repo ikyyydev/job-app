@@ -8,7 +8,9 @@ export const Hero = () => {
         <div className="container mt-auto">
           <div className="row">
             <div className="content col-md">
-              <h1>JOB</h1>
+              <h1>
+                JOB<span>.</span>
+              </h1>
               <h2>Platform Pencari Kerja Terpopuler di Indonesia</h2>
               <p>
                 dipercaya oleh 10 juta pengguna dan di dukung oleh perusahaan
