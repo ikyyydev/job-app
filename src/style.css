@@ -45,6 +45,7 @@ li {
 .navbar.color-active {
   background-color: #fff;
   padding: 10px 0;
+  border-bottom: 2px solid #ffc107;
 }
 
 .navbar a {
@@ -70,16 +71,35 @@ form input {
 /* Job */
 .jobContainer {
   background-color: var(--second-bg);
+  padding: 100px 10px;
 }
 
 .singleJob {
   width: 250px;
-  border: 1px solid var(--second-bg);
+  height: 360px;
+  border: 1px solid #ffc107;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.5s;
 }
 
 .singleJob:hover {
-  background: var(--second-bg);
   cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.singleJob h1 {
+  font-size: 20px;
+}
+
+.singleJob p {
+  font-size: 14px;
+}
+
+/* Search */
+.search-container {
+  padding: 100px 0 20px;
 }
 
 /* Responsive tablet */
@@ -89,3 +109,8 @@ form input {
   }
 } */
 /* Responsive handphone */
+@media screen and (max-width: 516px) {
+  .singleJob {
+    width: 80%;
+  }
+}

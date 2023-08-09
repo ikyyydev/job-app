@@ -2,7 +2,7 @@ import React from "react";
 
 const Search = () => {
   return (
-    <div className="py-5">
+    <div className="search-container">
       <div className="seacrhdiv col-md-10 rounded shadow p-5 mx-auto mb-1">
         <form action="">
           <div className="first d-flex justify-content-between align-items-center rounded gap-2 bg-light p-3 shadow-sm flex-wrap ">

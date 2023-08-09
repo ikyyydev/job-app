@@ -20,7 +20,7 @@ const NavbarComponent = () => {
     changeBackgroundColor();
 
     window.addEventListener("scroll", changeBackgroundColor);
-  });
+  }, []);
 
   return (
     <div>
