@@ -1,5 +1,6 @@
 import React from "react";
 import "./register.css";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -22,19 +23,19 @@ const Register = () => {
           <input type="password" name="" required="" />
           <label htmlFor="">Konfirmasi password</label>
         </div>
-        <a href="/signup" className="submit">
+        <Link to={"/signup"} className="submit">
+          {" "}
           <span></span>
           <span></span>
           <span></span>
-          <span></span>
-          Konfirmasi
-        </a>
+          <span></span>Submit
+        </Link>
       </form>
       <div>
         <div className="text-light">Sudah punya akun? </div>
-        <a href="/signup" className="text-dark">
+        <Link to={"/signup"} className="text-dark">
           Login
-        </a>
+        </Link>
       </div>
     </div>
   );
