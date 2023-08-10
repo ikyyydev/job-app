@@ -7,13 +7,13 @@ const Search = () => {
         <form action="">
           <div className="first d-flex justify-content-between align-items-center rounded gap-2 bg-light p-3 shadow-sm flex-wrap ">
             <div className="col d-flex gap-2 align-items-center">
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <i className="fa-solid fa-magnifying-glass"></i>
               <input
                 type="text"
                 className=" text-dark fw-bold w-100 outline-none  "
                 placeholder="Cari Lowongan ..."
               />
-              <i class="fa-solid fa-xmark"></i>
+              <i className="fa-solid fa-xmark"></i>
             </div>
             <button className="col-md-2 btn btn-warning rounded-1">Cari</button>
           </div>

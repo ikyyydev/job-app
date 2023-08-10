@@ -21,7 +21,7 @@ const Job = () => {
                 <h1 className="fs-5 fw-semibold text-dark">{item.posisi}</h1>
                 <span className="d-flex align-items-center text-dark ap-2">
                   {item.waktu}
-                  <i class="fa-regular fa-clock ms-1"></i>
+                  <i className="fa-regular fa-clock ms-1"></i>
                 </span>
               </span>
               <h6 className="border-bottom pb-2">{item.kota}</h6>
@@ -30,7 +30,7 @@ const Job = () => {
               <div className="company d-flex align-items-center gap-3">
                 <span className="fs-5 py-3 d-block">{item.perusahaan}</span>
               </div>
-              <a href="" className="btn btn-warning d-block">
+              <a href={"/detail"} className="btn btn-warning d-block">
                 Apply Now
               </a>
             </div>
@@ -38,7 +38,7 @@ const Job = () => {
         })}
       </div>
       <a
-        href="/findjobs"
+        href={"/findjobs"}
         className="d-flex justify-content-center py-5 fs-5 fw-bold text-center text-light"
       >
         Tampilkan Semua Lowongan

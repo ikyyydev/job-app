@@ -34,8 +34,10 @@ li {
   z-index: 99;
 }
 
-.navbar .nav-link:hover {
+.navbar a:hover {
   background: #ffc107;
+  padding: 3px 8px;
+  border-radius: 5px;
 }
 
 .navbar span {
@@ -51,11 +53,13 @@ li {
 .navbar a {
   font-size: 1.1rem;
   font-weight: bold;
+  padding: 3px 8px;
 }
 
-.navbar .nav-link {
+.navbar a {
   color: #000;
   font-weight: 600;
+  text-decoration: none;
 }
 
 /* Search */

@@ -33,13 +33,17 @@ const NavbarComponent = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav d-flex justify-content-center">
             <Nav className="mx-auto gap-3">
-              <Nav.Link href="/">Beranda</Nav.Link>
+              {/* <Nav.Link href="/">Beranda</Nav.Link>
               <Nav.Link href="/findjobs">Lowongan</Nav.Link>
               <Nav.Link href="/myjob">Lamaran saya</Nav.Link>
-              <Nav.Link href="/service">Fitur</Nav.Link>
+              <Nav.Link href="/service">Fitur</Nav.Link> */}
+              <Link to={"/"}>Beranda</Link>
+              <Link to={"/findjobs"}>Lowongan</Link>
+              <Link to={"/myjob"}>Lamaran saya</Link>
+              <Link to={"/service"}>Fitur</Link>
             </Nav>
             <Link
-              to="/signup"
+              to={"/signup"}
               className="btn btn-light btn-outline-warning ms-3"
             >
               Masuk

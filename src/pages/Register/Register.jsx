@@ -3,26 +3,26 @@ import "./register.css";
 
 const Register = () => {
   return (
-    <div class="login-box">
+    <div className="login-box">
       <h2>Register</h2>
-      <form action="">
-        <div class="user-box">
+      <form>
+        <div className="user-box">
           <input type="text" name="" required="" />
-          <label for="">Username</label>
+          <label htmlFor="">Username</label>
         </div>
-        <div class="user-box">
+        <div className="user-box">
           <input type="email" name="" required="" />
-          <label for="">email</label>
+          <label htmlFor="">email</label>
         </div>
-        <div class="user-box">
+        <div className="user-box">
           <input type="password" name="" required="" />
-          <label for="">Password</label>
+          <label htmlFor="">Password</label>
         </div>
-        <div class="user-box">
+        <div className="user-box">
           <input type="password" name="" required="" />
-          <label for="">Konfirmasi password</label>
+          <label htmlFor="">Konfirmasi password</label>
         </div>
-        <a href="/signup" class="submit">
+        <a href="/signup" className="submit">
           <span></span>
           <span></span>
           <span></span>

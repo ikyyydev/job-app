@@ -8,6 +8,7 @@ import CompanyProfile from "./pages/CompanyProfile";
 import Service from "./pages/Service/Services";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
+import { DetailJob } from "./pages/DetailJob/DetailJob";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/findjobs" element={<FindJobs />} />
+        <Route path="/detail" element={<DetailJob />} />
         <Route path="/myjob" element={<MyJob />} />
         <Route path="/companyprofile" element={<CompanyProfile />} />
         <Route path="/service" element={<Service />} />
