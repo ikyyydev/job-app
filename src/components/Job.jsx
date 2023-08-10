@@ -3,7 +3,7 @@ import { job } from "../db/job";
 import { Link } from "react-router-dom";
 
 const Job = () => {
-  const [rowData, setRowdata] = useState(4);
+  const [rowData, setRowdata] = useState(10);
 
   const slice = job.slice(0, rowData);
   return (
@@ -31,7 +31,10 @@ const Job = () => {
               <div className="company d-flex align-items-center gap-3">
                 <span className="fs-5 py-3 d-block">{item.perusahaan}</span>
               </div>
-              <Link to={"/detail"} className="btn btn-warning d-block">
+              <Link
+                to={`/detail/${item.id}`}
+                className="btn btn-warning d-block"
+              >
                 Lamar
               </Link>
             </div>

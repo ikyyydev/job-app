@@ -86,6 +86,7 @@ form input {
   flex-direction: column;
   justify-content: space-between;
   transition: 0.5s;
+  flex: auto;
 }
 
 .singleJob:hover {

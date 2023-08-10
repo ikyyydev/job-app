@@ -24,9 +24,9 @@ const Login = () => {
         </Link>
       </form>
       <div>
-        <div className="text-light">Belum punya akun? </div>
+        <div className="text-light">Belum punya akun? klik </div>
         <Link to={"/register"} className="text-dark">
-          Register
+          Daftar akun
         </Link>
       </div>
     </div>

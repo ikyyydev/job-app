@@ -34,7 +34,7 @@ const Register = () => {
       <div>
         <div className="text-light">Sudah punya akun? </div>
         <Link to={"/signup"} className="text-dark">
-          Login
+          Masuk
         </Link>
       </div>
     </div>

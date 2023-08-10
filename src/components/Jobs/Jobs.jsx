@@ -103,7 +103,7 @@ export const Jobs = () => {
                   <div className="company d-flex align-items-center gap-3">
                     <span className="fs-5 py-3 d-block">{item.perusahaan}</span>
                   </div>
-                  <Link to={"/detail"} className="btn btn-warning">
+                  <Link to={`/detail/${item.id}`} className="btn btn-warning">
                     Lamar
                   </Link>
                 </div>
