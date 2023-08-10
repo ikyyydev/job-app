@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { job } from "../db/job";
+import { Link } from "react-router-dom";
 
 const Job = () => {
   const [rowData, setRowdata] = useState(4);
@@ -30,19 +31,19 @@ const Job = () => {
               <div className="company d-flex align-items-center gap-3">
                 <span className="fs-5 py-3 d-block">{item.perusahaan}</span>
               </div>
-              <a href={"/detail"} className="btn btn-warning d-block">
-                Apply Now
-              </a>
+              <Link to={"/detail"} className="btn btn-warning d-block">
+                Lamar
+              </Link>
             </div>
           );
         })}
       </div>
-      <a
-        href={"/findjobs"}
+      <Link
+        to={"/findjobs"}
         className="d-flex justify-content-center py-5 fs-5 fw-bold text-center text-light"
       >
-        Tampilkan Semua Lowongan
-      </a>
+        Tampilkan semua lowongan
+      </Link>
     </div>
   );
 };

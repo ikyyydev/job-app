@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { job } from "../../db/job";
+import { Link } from "react-router-dom";
 
 export const Jobs = () => {
   const [search, setSearch] = useState("");
@@ -102,9 +103,9 @@ export const Jobs = () => {
                   <div className="company d-flex align-items-center gap-3">
                     <span className="fs-5 py-3 d-block">{item.perusahaan}</span>
                   </div>
-                  <a href="/detail" className="btn btn-warning">
+                  <Link to={"/detail"} className="btn btn-warning">
                     Lamar
-                  </a>
+                  </Link>
                 </div>
               );
             })}
