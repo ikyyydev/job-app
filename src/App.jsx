@@ -14,14 +14,16 @@ function App() {
   return (
     <>
       <Routes>
+        <Route path="/signin" element={<Login />} />
+        <Route path="/signup" element={<Register />} />
         <Route path="/" element={<Home />} />
+        {/* <Route element={<ProtectedRoutes />}> */}
         <Route path="/findjobs" element={<FindJobs />} />
         <Route path="/detail/:id" element={<DetailJob />} />
         <Route path="/myjob" element={<MyJob />} />
         <Route path="/companyprofile" element={<CompanyProfile />} />
         <Route path="/service" element={<Service />} />
-        <Route path="/signup" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        {/* </Route> */}
       </Routes>
     </>
   );

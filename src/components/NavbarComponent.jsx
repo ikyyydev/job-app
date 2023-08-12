@@ -39,7 +39,7 @@ const NavbarComponent = () => {
               <Link to={"/service"}>Fitur</Link>
             </Nav>
             <Link
-              to={"/signup"}
+              to={"/signin"}
               className="btn btn-light btn-outline-warning ms-3"
             >
               Masuk

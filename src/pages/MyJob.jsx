@@ -5,7 +5,6 @@ const MyJob = () => {
   return (
     <div>
       <NavbarComponent />
-      <h1>Halaman Simpan Job</h1>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavbarComponent from "../components/NavbarComponent";
 import Job from "../components/Job";
 import Search from "../components/Search";

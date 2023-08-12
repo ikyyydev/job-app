@@ -73,7 +73,8 @@ form input {
 }
 
 /* Job */
-.jobContainer {
+.jobContainer,
+.myAppContainer {
   background-color: var(--second-bg);
   padding: 100px 10px;
 }

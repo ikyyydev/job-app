@@ -21,7 +21,7 @@ export const DetailJob = () => {
   const [disabled, setDisabled] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = (e) => {
+  const handleShow = () => {
     setShow(true);
     setDisabled(true);
   };
@@ -75,10 +75,6 @@ export const DetailJob = () => {
                 laudantium repudiandae. Minima exercitationem temporibus
                 laboriosam cum, quod reiciendis!
               </p>
-
-              {/* <a href="" className="btn btn-warning d-block">
-                Lamar
-              </a> */}
 
               <Modal show={show} onHide={handleClose} animation={true}>
                 <Modal.Header closeButton>
