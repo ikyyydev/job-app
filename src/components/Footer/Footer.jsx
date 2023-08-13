@@ -76,7 +76,7 @@ const Footer = () => {
           <div className="row">
             <div className="col hakcipta">
               <p>
-                Hak cipta @2023 Rifki | <a href="">Syarat & Ketentuan</a>{" "}
+                Hak cipta @2023 [Name] | <a href="">Syarat & Ketentuan</a>{" "}
               </p>
             </div>
           </div>

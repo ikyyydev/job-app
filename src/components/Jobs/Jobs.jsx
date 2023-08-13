@@ -8,6 +8,9 @@ export const Jobs = () => {
   return (
     <div>
       <div className="search-container">
+        <h1 className="text-center fw-bold py-5" style={{ fontSize: "40px" }}>
+          Cari pekerjaan impianmu disini
+        </h1>
         <div className="seacrhdiv col-md-10 rounded shadow p-5 mx-auto mb-1">
           <form action="">
             <div className="first d-flex justify-content-between align-items-center rounded gap-2 bg-light p-3 shadow-sm flex-wrap ">
@@ -74,7 +77,7 @@ export const Jobs = () => {
       </div>
 
       <div className="jobContainer" id="jobContainer">
-        <h1 className="text-center text-light fw-bold p-5">
+        <h1 className="text-center text-light fw-bold pb-5">
           Daftar <span className="text-warning">Lowongan</span>
         </h1>
         <div className="d-flex gap-2 justify-content-center flex-wrap align-items-center py-3">

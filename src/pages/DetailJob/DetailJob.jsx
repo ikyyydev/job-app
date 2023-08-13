@@ -2,12 +2,14 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import "./detail.css";
 import { job } from "../../db/job";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { Button, Modal } from "react-bootstrap";
 
 export const DetailJob = () => {
   const { id } = useParams();
   const [detailJob, setDetailJob] = useState(null);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     let jobs = job.find((jobs) => jobs.id === parseInt(id));

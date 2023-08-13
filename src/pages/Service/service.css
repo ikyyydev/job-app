@@ -10,7 +10,7 @@
   padding: 100px 0;
 }
 
-.hero-service::after {
+/* .hero-service::after {
   content: "";
   display: block;
   position: absolute;
@@ -18,7 +18,7 @@
   height: 30%;
   bottom: 0;
   background: linear-gradient(0deg, #26a8ffd8 8%, #26a8ff00 30%);
-}
+} */
 
 .hero-service .content {
   padding: 0 50px;

@@ -1,6 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import Home from "./pages/Home";
 import FindJobs from "./pages/FindJobs";
 import MyJob from "./pages/MyJob";
@@ -16,14 +19,14 @@ function App() {
       <Routes>
         <Route path="/signin" element={<Login />} />
         <Route path="/signup" element={<Register />} />
-        <Route path="/" element={<Home />} />
-        {/* <Route element={<ProtectedRoutes />}> */}
+        <Route path="/" element={<Home />} exact />
+        {/* <ProtectedRoutes> */}
         <Route path="/findjobs" element={<FindJobs />} />
         <Route path="/detail/:id" element={<DetailJob />} />
         <Route path="/myjob" element={<MyJob />} />
         <Route path="/companyprofile" element={<CompanyProfile />} />
         <Route path="/service" element={<Service />} />
-        {/* </Route> */}
+        {/* </ProtectedRoutes> */}
       </Routes>
     </>
   );

@@ -52,6 +52,7 @@ const Login = () => {
             value={email}
             required=""
             className="border p-2"
+            autoFocus
           />
           <input
             type="password"
