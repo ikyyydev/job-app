@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import { User } from "./User/User";
 
 const NavbarComponent = () => {
   const [changeColor, setCahngeColor] = useState(false);
@@ -32,7 +33,7 @@ const NavbarComponent = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav d-flex justify-content-center">
-            <Nav className="mx-auto gap-3">
+            <Nav className="navbar-center mx-auto gap-3">
               <Link to={"/"}>Beranda</Link>
               <Link to={"/findjobs"}>Lowongan</Link>
               <Link to={"/myjob"}>Lamaran saya</Link>
@@ -47,6 +48,9 @@ const NavbarComponent = () => {
             <Button className="btn btn-warning fw-semibold ms-3">
               Untuk perusahaan
             </Button>
+            <div className="account">
+              <User />
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

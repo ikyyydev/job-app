@@ -4,10 +4,12 @@ import "./service.css";
 import {
   HeroService,
   HeroServiceDua,
+  HeroServiceEmpat,
   HeroServiceTiga,
 } from "../../components/HeroService/HeroService";
 import Footer from "../../components/Footer/Footer";
 import { HomeRekruitment } from "../../components/HomeRekruitment/HomeRekruitment";
+import { CompanyList } from "../../components/CompanyList/CompanyList";
 
 const TipsKarir = () => {
   return (
@@ -16,6 +18,8 @@ const TipsKarir = () => {
       <HeroService />
       <HeroServiceDua />
       <HeroServiceTiga />
+      <HeroServiceEmpat />
+      <CompanyList />
       <HomeRekruitment />
       <Footer />
     </>

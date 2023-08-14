@@ -1,0 +1,65 @@
+/* profile */
+.profile {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.profile .image {
+  display: flex;
+}
+
+.profile button {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile .image img {
+  width: 60px;
+  height: 60px;
+}
+
+.openProfile {
+  position: absolute;
+  top: 90px;
+  right: 0px;
+  width: 200px;
+  background-color: #fff;
+}
+
+.openProfile .box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  transition: 0.5s;
+  padding: 5px 5px;
+  align-items: center;
+  align-content: center;
+  border-radius: 5px;
+}
+
+.openProfile .box h4 {
+  margin: auto 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.openProfile .box:hover {
+  background: #a09d9d48;
+}
+
+.openProfile .icon {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.openProfile h4 {
+  font-size: 15px;
+  font-weight: 500;
+}

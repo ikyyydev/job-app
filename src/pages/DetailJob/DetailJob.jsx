@@ -77,6 +77,21 @@ export const DetailJob = () => {
                 laudantium repudiandae. Minima exercitationem temporibus
                 laboriosam cum, quod reiciendis!
               </p>
+              <div className="d-flex justify-content-end gap-2">
+                <Button
+                  className=" btn btn-secondary"
+                  onClick={() => navigate(-1)}
+                >
+                  Kembali
+                </Button>
+                <Button
+                  className=" btn btn-warning"
+                  onClick={handleShow}
+                  disabled={disabled}
+                >
+                  {disabled ? "Sudah melamar" : "Lamar"}
+                </Button>
+              </div>
 
               <Modal show={show} onHide={handleClose} animation={true}>
                 <Modal.Header closeButton>
@@ -92,13 +107,6 @@ export const DetailJob = () => {
                   </Button>
                 </Modal.Footer>
               </Modal>
-              <Button
-                className="d-flex btn btn-warning ms-auto"
-                onClick={handleShow}
-                disabled={disabled}
-              >
-                {disabled ? "Sudah melamar" : "Lamar"}
-              </Button>
             </div>
           </div>
         </section>

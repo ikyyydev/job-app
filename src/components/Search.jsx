@@ -13,7 +13,6 @@ const Search = () => {
                 className=" text-dark fw-bold w-100 outline-none  "
                 placeholder="Cari Lowongan ..."
               />
-              <i className="fa-solid fa-xmark"></i>
             </div>
             <button className="col-md-2 btn btn-warning rounded-1">Cari</button>
           </div>

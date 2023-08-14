@@ -34,7 +34,7 @@ li {
   z-index: 99;
 }
 
-.navbar a:hover {
+.navbar .navbar-center a:hover {
   background: #ffc107;
   padding: 3px 8px;
   border-radius: 5px;
@@ -50,7 +50,7 @@ li {
   border-bottom: 2px solid #ffc107;
 }
 
-.navbar a {
+.navbar .navbar-center a {
   font-size: 1.1rem;
   font-weight: bold;
   padding: 3px 8px;
