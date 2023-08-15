@@ -20,23 +20,23 @@ export const User = () => {
 
         {profileOpen && (
           <div
-            className="openProfile boxItems d-flex flex-column pt-4 pb-2 px-1 shadow rounded gap-2"
+            className="openProfile boxItems d-flex flex-column pt-2 pb-2 px-1 shadow rounded gap-2"
             onClick={close}
           >
-            <Link to="/account">
+            {/* <Link to="/account">
               <div className="image d-flex justify-content-center mb-4">
                 <div className="img">
                   <img src="people.jpg" alt="Jokowi" />
                 </div>
               </div>
-            </Link>
+            </Link> */}
             <Link to="/account">
               <div className="box">
                 <i className="icon fa-solid fa-user"></i>
                 <h4>Akun Saya</h4>
               </div>
             </Link>
-            <Link to="/">
+            <Link to="/signin">
               <div className="box">
                 <i className="icon fa-solid fa-arrow-right-from-bracket text-danger"></i>
                 <h4>Keluar</h4>

@@ -19,15 +19,15 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/signin" element={<Login />} exact />
-          <Route path="/signup" element={<Register />} exact />
+          <Route path="/signin" element={<Login />} />
+          <Route path="/signup" element={<Register />} />
           <Route path="/" element={<Home />} exact />
-          <Route path="/findjobs" element={<FindJobs />} exact />
-          <Route path="/detail/:id" element={<DetailJob />} exact />
-          <Route path="/myjob" element={<MyJob />} exact />
-          <Route path="/companyprofile" element={<CompanyProfile />} exact />
-          <Route path="/service" element={<Service />} exact />
-          <Route path="/account" element={<Account />} exact />
+          <Route path="/findjobs" element={<FindJobs />} />
+          <Route path="/detail/:id" element={<DetailJob />} />
+          <Route path="/myjob" element={<MyJob />} />
+          <Route path="/companyprofile" element={<CompanyProfile />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/account" element={<Account />} />
         </Routes>
       </Router>
     </>

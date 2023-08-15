@@ -39,12 +39,12 @@ const NavbarComponent = () => {
               <Link to={"/myjob"}>Lamaran saya</Link>
               <Link to={"/service"}>Fitur</Link>
             </Nav>
-            <Link
+            {/* <Link
               to={"/signin"}
               className="btn btn-light btn-outline-warning ms-3"
             >
               Masuk
-            </Link>
+            </Link> */}
             <Button className="btn btn-warning fw-semibold ms-3">
               Untuk perusahaan
             </Button>
