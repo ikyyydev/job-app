@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-// import { auth } from "../../firebase";
+import { auth } from "../../firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
