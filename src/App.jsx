@@ -19,8 +19,8 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/signin" element={<Login />} />
-          <Route path="/signup" element={<Register />} />
+          <Route path="/signin" element={<Login />} exact />
+          <Route path="/signup" element={<Register />} exact />
           <Route path="/" element={<Home />} exact />
           <Route path="/findjobs" element={<FindJobs />} />
           <Route path="/detail/:id" element={<DetailJob />} />
